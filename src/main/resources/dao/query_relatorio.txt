@@ -1,0 +1,11 @@
+select o.nome as obra,
+       c.nome as colaborador,
+       c.data_admissao as admissao,
+       c.matricula,
+       c.salario,
+       t.descricao as tarefa,
+       t.preco
+from obra o
+         join colaborador c on o.id_obra = c.id_obra
+         join tarefa t on c.id_colaborador = t.id_colaborador
+where o.id_obra = ?

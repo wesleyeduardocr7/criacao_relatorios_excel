@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="criacao_relatorios_excel" />
+        <module name="desafio_linha_montagem" />
+        <module name="desafio_linha_montagem-master" />
+        <module name="desafio_linha_montagem_java_v01" />
+        <module name="reuniao_tecnica_excel" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
